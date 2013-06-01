@@ -1,6 +1,11 @@
 vim-c-cr
 ========
 
+DISCLAIMER
+----------
+This only works with gvim! Read [this stackoverflow question](http://stackoverflow.com/questions/598113/can-terminals-detect-shift-enter-or-control-enter) for more info.
+
+
 A very simple and small (twenty lines of vimscript) plugin that maps ctrl+enter (`<c-cr>`) in insert mode and finishes braces (`{}`), brackets (`[]`) and parentheses (`()`) for you and puts you tabbed over on a blank line between them.
 
 So,
