@@ -12,6 +12,8 @@ function! Closer()
     return "]"
   elseif prevchar ==# "("
     return ")"
+  else
+    finish
   endif
 endfunction
 
