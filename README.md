@@ -25,4 +25,4 @@ or
   <your cursor here>
 )
 ```
-Compadible with pathogen and vundle.
+Compatible with pathogen and vundle.
