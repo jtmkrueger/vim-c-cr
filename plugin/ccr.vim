@@ -13,7 +13,7 @@ function! Closer()
   elseif prevchar ==# "("
     return ")"
   else
-    finish
+    return " "
   endif
 endfunction
 
