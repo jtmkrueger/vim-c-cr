@@ -17,6 +17,6 @@ function! Closer()
   endif
 endfunction
 
-imap <c-cr> <C-R>=Closer()<C-M><Left><CR><CR><C-o>k<Tab>
+imap <C-CR> <C-R>=Closer()<C-M><Left><CR><CR><C-o>k<Tab>
 
 " vim:set ft=vim sw=2 sts=2 et:
