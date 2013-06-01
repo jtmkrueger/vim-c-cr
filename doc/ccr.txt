@@ -1,3 +1,5 @@
+*ccr.txt*  A little magic for ctrl+enter
+
 vim-c-cr
 ========
 
