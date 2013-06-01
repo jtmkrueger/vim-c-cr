@@ -1,4 +1,27 @@
 vim-c-cr
 ========
 
-Give c-cr a little magic in vim
+A very simple and small (twenty lines of vimscript) plugin that maps `<c-cr>` in insert mode and finishes braces (`{}`), brackets (`[]`) and parentheses (`()`) for you and puts you tabbed over on a blank line between them.
+
+So,
+```
+{<c-cr>
+or
+[<c-cr>
+or
+(<c-cr>
+```
+will give you
+```
+{
+  <your cursor here>
+}
+or
+[
+  <your cursor here>
+]
+or
+(
+  <your cursor here>
+)
+```
