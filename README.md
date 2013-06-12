@@ -29,4 +29,4 @@ Compatible with pathogen and vundle.
 
 DISCLAIMER
 ----------
-This only works with gvim! Read [this stackoverflow question](http://stackoverflow.com/questions/598113/can-terminals-detect-shift-enter-or-control-enter) for more info.
+ctrl+enter only works with gvim! Read [this stackoverflow question](http://stackoverflow.com/questions/598113/can-terminals-detect-shift-enter-or-control-enter) for more info.
