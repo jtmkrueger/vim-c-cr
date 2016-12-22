@@ -4,7 +4,7 @@ endif
 let g:loaded_ccr = 1
 function! Closer()
   let  prevchar = getline(".")[col(".")-2]
-  let  postchar = getline(".")[col(".")]
+  let  postchar = getline(".")[col(".")-1]
   if prevchar ==# "{"
     if postchar ==# "}"
       return ""
