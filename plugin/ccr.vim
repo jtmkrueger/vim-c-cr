@@ -4,12 +4,25 @@ endif
 let g:loaded_ccr = 1
 function! Closer()
   let  prevchar = getline(".")[col(".")-2]
+  let  postchar = getline(".")[col(".")]
   if prevchar ==# "{"
-    return "}"
+    if postchar ==# "}"
+      return ""
+    else
+      return "}"
+    endif
   elseif prevchar ==# "["
-    return "]"
+    if postchar ==# "]"
+      return ""
+    else
+      return "]"
+    endif
   elseif prevchar ==# "("
-    return ")"
+    if postchar ==# ")"
+      return ""
+    else
+      return ")"
+    endif
   else
     return " "
   endif
