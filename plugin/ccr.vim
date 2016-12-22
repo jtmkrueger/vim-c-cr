@@ -7,19 +7,19 @@ function! Closer()
   let  postchar = getline(".")[col(".")-1]
   if prevchar ==# "{"
     if postchar ==# "}"
-      return ""
+      return " "
     else
       return "}"
     endif
   elseif prevchar ==# "["
     if postchar ==# "]"
-      return ""
+      return " "
     else
       return "]"
     endif
   elseif prevchar ==# "("
     if postchar ==# ")"
-      return ""
+      return " "
     else
       return ")"
     endif
