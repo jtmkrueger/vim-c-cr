@@ -25,7 +25,7 @@ or
   <your cursor here>
 )
 ```
-Compatible with pathogen and vundle.
+Compatible with pathogen, plug and vundle.
 
 DISCLAIMER
 ----------
